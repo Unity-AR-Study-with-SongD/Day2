@@ -4,5 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
-  m_configObjects: {}
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/QRCode.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/ImageTracking.unity
+    guid: e04d1cfb0100e3c49b46ab4600c99c78
+  m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 55716651c0fa3564f826f2800b739e67, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: cd4bbf128664af64db31cb1942fe8d8a, type: 2}
